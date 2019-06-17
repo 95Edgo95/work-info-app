@@ -1,0 +1,185 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form should render correctly 1`] = `
+<Form
+  attemptCreateEntity={[MockFunction]}
+  attemptUpdateEntity={[MockFunction]}
+  entitiesSize={2}
+  entity={Immutable.Map {}}
+  history={History {}}
+  inputs={
+    Array [
+      Object {
+        "defaultValue": "",
+        "name": "firstName",
+        "placeholder": "First Name",
+      },
+      Object {
+        "defaultValue": "",
+        "name": "lastName",
+        "placeholder": "Last Name",
+      },
+      Object {
+        "defaultValue": "",
+        "name": "passport",
+        "placeholder": "Passport",
+      },
+      Object {
+        "defaultValue": "",
+        "name": "email",
+        "placeholder": "Email",
+      },
+      Object {
+        "defaultValue": "",
+        "name": "birthDate",
+        "placeholder": "Birth Date",
+        "type": "date",
+      },
+    ]
+  }
+  validations={Object {}}
+>
+  <form
+    onSubmit={[Function]}
+  >
+    <Input
+      key="firstName"
+      name="firstName"
+      onChange={[Function]}
+      placeholder="First Name"
+    >
+      <div>
+        <div
+          className=""
+        >
+          <input
+            name="firstName"
+            onChange={[Function]}
+            placeholder="First Name"
+            type="text"
+          />
+        </div>
+      </div>
+    </Input>
+    <Input
+      key="lastName"
+      name="lastName"
+      onChange={[Function]}
+      placeholder="Last Name"
+    >
+      <div>
+        <div
+          className=""
+        >
+          <input
+            name="lastName"
+            onChange={[Function]}
+            placeholder="Last Name"
+            type="text"
+          />
+        </div>
+      </div>
+    </Input>
+    <Input
+      key="passport"
+      name="passport"
+      onChange={[Function]}
+      placeholder="Passport"
+    >
+      <div>
+        <div
+          className=""
+        >
+          <input
+            name="passport"
+            onChange={[Function]}
+            placeholder="Passport"
+            type="text"
+          />
+        </div>
+      </div>
+    </Input>
+    <Input
+      key="email"
+      name="email"
+      onChange={[Function]}
+      placeholder="Email"
+    >
+      <div>
+        <div
+          className=""
+        >
+          <input
+            name="email"
+            onChange={[Function]}
+            placeholder="Email"
+            type="text"
+          />
+        </div>
+      </div>
+    </Input>
+    <Input
+      key="birthDate"
+      name="birthDate"
+      onChange={[Function]}
+      placeholder="Birth Date"
+      type="date"
+    >
+      <DayPickerInput
+        classNames={
+          Object {
+            "container": "DayPickerInput",
+            "overlay": "DayPickerInput-Overlay",
+            "overlayWrapper": "DayPickerInput-OverlayWrapper",
+          }
+        }
+        clickUnselectsDay={false}
+        component="input"
+        dayPickerProps={Object {}}
+        format="DD/MM/YYYY"
+        formatDate={[Function]}
+        hideOnDayClick={true}
+        inputProps={
+          Object {
+            "className": undefined,
+            "name": "birthDate",
+          }
+        }
+        keepFocus={true}
+        onDayChange={[Function]}
+        overlayComponent={[Function]}
+        parseDate={[Function]}
+        placeholder="Birth Date"
+        showOverlay={false}
+        value=""
+      >
+        <div
+          className="DayPickerInput"
+        >
+          <input
+            name="birthDate"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onClick={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            placeholder="Birth Date"
+            value=""
+          />
+        </div>
+      </DayPickerInput>
+    </Input>
+    <Button
+      type="submit"
+    >
+      <button
+        className=""
+        type="submit"
+      >
+        Update
+      </button>
+    </Button>
+  </form>
+</Form>
+`;

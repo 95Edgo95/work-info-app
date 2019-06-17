@@ -1,0 +1,217 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Workplaces should render correctly 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <BrowserRouter>
+    <Router
+      history={
+        Object {
+          "action": "POP",
+          "block": [Function],
+          "createHref": [Function],
+          "go": [Function],
+          "goBack": [Function],
+          "goForward": [Function],
+          "length": 1,
+          "listen": [Function],
+          "location": Object {
+            "hash": "",
+            "pathname": "/",
+            "search": "",
+            "state": undefined,
+          },
+          "push": [Function],
+          "replace": [Function],
+        }
+      }
+    >
+      <Connect(Workplace)
+        match={
+          Object {
+            "params": Object {
+              "workbookId": "asdf",
+            },
+          }
+        }
+      >
+        <Workplace
+          attemptDeleteWorkplace={[Function]}
+          attemptGetWorkplaces={[Function]}
+          match={
+            Object {
+              "params": Object {
+                "workbookId": "asdf",
+              },
+            }
+          }
+          pagination={
+            Immutable.Map {
+              "count": 0,
+              "limit": 0,
+              "offset": 0,
+            }
+          }
+          workplaces={Immutable.Map {}}
+        >
+          <Filter
+            additionalParams={
+              Object {
+                "workbookId": "asdf",
+              }
+            }
+            attemptGetEntities={[Function]}
+            createLink="workplaces/asdf"
+            inputs={
+              Array [
+                Object {
+                  "defaultValue": "",
+                  "name": "country",
+                  "placeholder": "Country",
+                },
+                Object {
+                  "defaultValue": "",
+                  "name": "company",
+                  "placeholder": "Company",
+                },
+                Object {
+                  "defaultValue": "",
+                  "name": "city",
+                  "placeholder": "City",
+                },
+              ]
+            }
+          >
+            <div>
+              <Input
+                key="country"
+                name="country"
+                onChange={[Function]}
+                placeholder="Country"
+                value=""
+              >
+                <div>
+                  <div
+                    className=""
+                  >
+                    <input
+                      name="country"
+                      onChange={[Function]}
+                      placeholder="Country"
+                      type="text"
+                      value=""
+                    />
+                  </div>
+                </div>
+              </Input>
+              <Input
+                key="company"
+                name="company"
+                onChange={[Function]}
+                placeholder="Company"
+                value=""
+              >
+                <div>
+                  <div
+                    className=""
+                  >
+                    <input
+                      name="company"
+                      onChange={[Function]}
+                      placeholder="Company"
+                      type="text"
+                      value=""
+                    />
+                  </div>
+                </div>
+              </Input>
+              <Input
+                key="city"
+                name="city"
+                onChange={[Function]}
+                placeholder="City"
+                value=""
+              >
+                <div>
+                  <div
+                    className=""
+                  >
+                    <input
+                      name="city"
+                      onChange={[Function]}
+                      placeholder="City"
+                      type="text"
+                      value=""
+                    />
+                  </div>
+                </div>
+              </Input>
+              <Button
+                onClick={[Function]}
+              >
+                <button
+                  className=""
+                  onClick={[Function]}
+                  type="button"
+                >
+                  Search
+                </button>
+              </Button>
+              <Button
+                secondary={true}
+              >
+                <button
+                  className=""
+                  type="button"
+                >
+                  <Link
+                    replace={false}
+                    to="/workplaces/asdf/create"
+                  >
+                    <a
+                      href="/workplaces/asdf/create"
+                      onClick={[Function]}
+                    >
+                      Add New
+                    </a>
+                  </Link>
+                </button>
+              </Button>
+            </div>
+          </Filter>
+          <CardsWrapper
+            attemptGetEntities={[Function]}
+            entities={Immutable.Map {}}
+            getDetails={[Function]}
+            pagination={
+              Immutable.Map {
+                "count": 0,
+                "limit": 0,
+                "offset": 0,
+              }
+            }
+            params={
+              Object {
+                "workbookId": "asdf",
+              }
+            }
+          >
+            <div>
+              <Component />
+            </div>
+          </CardsWrapper>
+        </Workplace>
+      </Connect(Workplace)>
+    </Router>
+  </BrowserRouter>
+</Provider>
+`;

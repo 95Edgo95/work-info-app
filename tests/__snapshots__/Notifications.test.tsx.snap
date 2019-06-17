@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Layout should render correctly 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <BrowserRouter>
+    <Router
+      history={
+        Object {
+          "action": "POP",
+          "block": [Function],
+          "createHref": [Function],
+          "go": [Function],
+          "goBack": [Function],
+          "goForward": [Function],
+          "length": 1,
+          "listen": [Function],
+          "location": Object {
+            "hash": "",
+            "pathname": "/",
+            "search": "",
+            "state": undefined,
+          },
+          "push": [Function],
+          "replace": [Function],
+        }
+      }
+    >
+      <Connect(Notifications)>
+        <Notifications
+          notifications={Immutable.List []}
+          removeNotification={[Function]}
+        >
+          <ToastContainer
+            autoClose={2000}
+            bodyClassName={null}
+            className={null}
+            closeButton={
+              <CloseButton
+                ariaLabel="close"
+              />
+            }
+            closeOnClick={true}
+            draggable={true}
+            draggablePercent={80}
+            hideProgressBar={true}
+            newestOnTop={true}
+            pauseOnFocusLoss={true}
+            pauseOnHover={true}
+            position="top-right"
+            progressClassName={null}
+            progressStyle={null}
+            rtl={false}
+            style={null}
+            toastClassName={null}
+            transition={[Function]}
+          >
+            <div
+              className="Toastify"
+            />
+          </ToastContainer>
+        </Notifications>
+      </Connect(Notifications)>
+    </Router>
+  </BrowserRouter>
+</Provider>
+`;

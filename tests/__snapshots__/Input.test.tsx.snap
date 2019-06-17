@@ -1,0 +1,187 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input should render correctly 1`] = `
+<Input
+  name="test"
+  onChange={[MockFunction]}
+  value="test"
+>
+  <div>
+    <div
+      className=""
+    >
+      <input
+        name="test"
+        onChange={[MockFunction]}
+        placeholder=""
+        type="text"
+        value="test"
+      />
+    </div>
+  </div>
+</Input>
+`;
+
+exports[`Input should render correctly disabled input 1`] = `
+<Input
+  disabled={true}
+  name="test"
+  onChange={[MockFunction]}
+  value="test"
+>
+  <div>
+    <div
+      className=""
+    >
+      <input
+        name="test"
+        onChange={[MockFunction]}
+        placeholder=""
+        type="text"
+        value="test"
+      />
+    </div>
+  </div>
+</Input>
+`;
+
+exports[`Input should render correctly error input 1`] = `
+<Input
+  hasError={true}
+  name="test"
+  onChange={[MockFunction]}
+  value="test"
+>
+  <div>
+    <div
+      className=""
+    >
+      <input
+        name="test"
+        onChange={[MockFunction]}
+        placeholder=""
+        type="text"
+        value="test"
+      />
+    </div>
+  </div>
+</Input>
+`;
+
+exports[`Input should render correctly hidden input 1`] = `
+<Input
+  name="test"
+  onChange={[MockFunction]}
+  type="hidden"
+  value="test"
+>
+  <div>
+    <div
+      className="undefined "
+    >
+      <input
+        name="test"
+        onChange={[MockFunction]}
+        placeholder=""
+        type="hidden"
+        value="test"
+      />
+    </div>
+  </div>
+</Input>
+`;
+
+exports[`Input should render correctly passport input 1`] = `
+<Input
+  name="test"
+  onChange={[MockFunction]}
+  type="password"
+  value="test"
+>
+  <div>
+    <div
+      className=""
+    >
+      <input
+        name="test"
+        onChange={[MockFunction]}
+        placeholder=""
+        type="password"
+        value="test"
+      />
+    </div>
+  </div>
+</Input>
+`;
+
+exports[`Input should render correctly valid input 1`] = `
+<Input
+  isValid={true}
+  name="test"
+  onChange={[MockFunction]}
+  value="test"
+>
+  <div>
+    <div
+      className=""
+    >
+      <input
+        name="test"
+        onChange={[MockFunction]}
+        placeholder=""
+        type="text"
+        value="test"
+      />
+    </div>
+  </div>
+</Input>
+`;
+
+exports[`Input should render correctly with error message 1`] = `
+<Input
+  error="You have error"
+  name="test"
+  onChange={[MockFunction]}
+  value="test"
+>
+  <div>
+    <div
+      className=""
+    >
+      <input
+        name="test"
+        onChange={[MockFunction]}
+        placeholder=""
+        type="text"
+        value="test"
+      />
+    </div>
+    <p>
+      You have error
+    </p>
+  </div>
+</Input>
+`;
+
+exports[`Input should render correctly with placeholder 1`] = `
+<Input
+  name="test"
+  onChange={[MockFunction]}
+  placeholder="Test"
+  value="test"
+>
+  <div>
+    <div
+      className=""
+    >
+      <input
+        name="test"
+        onChange={[MockFunction]}
+        placeholder="Test"
+        type="text"
+        value="test"
+      />
+    </div>
+  </div>
+</Input>
+`;

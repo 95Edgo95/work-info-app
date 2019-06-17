@@ -1,0 +1,11 @@
+export interface INotificationReducerActions {
+    REMOVE_NOTIFICATION: string;
+    ADD_NOTIFICATION: string;
+    RESET: string;
+}
+
+export const NOTIFICATION_REDUCER_ACTIONS: INotificationReducerActions = {
+    REMOVE_NOTIFICATION: "NOTIFICATIONS:REMOVE_NOTIFICATION",
+    ADD_NOTIFICATION: "NOTIFICATIONS:ADD_NOTIFICATION",
+    RESET: "NOTIFICATIONS:RESET",
+};

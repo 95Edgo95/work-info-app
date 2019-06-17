@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should render correctly 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <BrowserRouter>
+    <Router
+      history={
+        Object {
+          "action": "POP",
+          "block": [Function],
+          "createHref": [Function],
+          "go": [Function],
+          "goBack": [Function],
+          "goForward": [Function],
+          "length": 1,
+          "listen": [Function],
+          "location": Object {
+            "hash": "",
+            "pathname": "/",
+            "search": "",
+            "state": undefined,
+          },
+          "push": [Function],
+          "replace": [Function],
+        }
+      }
+    >
+      <Connect(Header)>
+        <Header
+          attemptSignOut={[Function]}
+        >
+          <div>
+            <Link
+              replace={false}
+              to="/"
+            >
+              <a
+                href="/"
+                onClick={[Function]}
+              >
+                Home
+              </a>
+            </Link>
+            <Button
+              onClick={[Function]}
+              secondary={true}
+            >
+              <button
+                className=""
+                onClick={[Function]}
+                type="button"
+              >
+                Exit
+              </button>
+            </Button>
+          </div>
+        </Header>
+      </Connect(Header)>
+    </Router>
+  </BrowserRouter>
+</Provider>
+`;

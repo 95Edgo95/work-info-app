@@ -1,0 +1,29 @@
+.card {
+  border: 1px solid black;
+  flex: 1 0 25%;
+  margin: 16px 16px 0 0;
+  height: 200px;
+  max-width: calc(25% - 80px);
+  border-radius: 16px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  outline: none;
+  text-decoration: none;
+  color: #1D1D1D;
+}
+
+@media only screen and (max-width: 1024px)  {
+  .card {
+    flex: 1 0 33%;
+    max-width: calc(33% - 48px);
+  }
+}
+
+@media only screen and (max-width: 720px)  {
+  .card {
+    flex: 1 0 100%;
+    max-width: calc(100% - 48px);
+  }
+}

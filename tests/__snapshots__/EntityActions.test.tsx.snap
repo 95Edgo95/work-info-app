@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EntityActions should render correctly 1`] = `
+<EntityActions
+  handleDelete={[MockFunction]}
+  handleEdit={[MockFunction]}
+>
+  <div>
+    <span
+      onClick={[MockFunction]}
+    >
+      <Icon
+        color="inherit"
+        name="pencil"
+        size={16}
+      >
+        <span
+          className="undefined "
+          role="presentation"
+          style={
+            Object {
+              "color": "inherit",
+              "fontSize": "16px",
+            }
+          }
+        >
+          <svg>
+            <use
+              xlinkHref="#pencil"
+            />
+          </svg>
+        </span>
+      </Icon>
+    </span>
+    <span
+      onClick={[MockFunction]}
+    >
+      <Icon
+        color="inherit"
+        name="trash"
+        size={16}
+      >
+        <span
+          className="undefined "
+          role="presentation"
+          style={
+            Object {
+              "color": "inherit",
+              "fontSize": "16px",
+            }
+          }
+        >
+          <svg>
+            <use
+              xlinkHref="#trash"
+            />
+          </svg>
+        </span>
+      </Icon>
+    </span>
+  </div>
+</EntityActions>
+`;

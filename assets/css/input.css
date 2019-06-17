@@ -1,0 +1,103 @@
+.inputWrapper {
+  height: 48px;
+  border-radius: 5px;
+  border: 1px solid #E5E5E5;
+  background-color: white;
+  padding: 0 16px;
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+  min-width: 200px;
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+}
+
+.disabled {
+  border: 1px solid #F1F1F1;
+  background: #F1F1F1;
+  color: #CCCCCC;
+}
+
+.disabled .input {
+  background: #F1F1F1;
+  color: #CCCCCC;
+}
+
+.inputWrapper:focus-within {
+  outline: none;
+  border-color: #007bff;
+  transition: all .5s ease-out;
+}
+
+.input {
+  color: #1D1D1D;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: transparent;
+  height: 100%;
+  width: 100%;
+  border: none;
+  box-sizing: border-box;
+  min-width: 0;
+}
+
+.input:-webkit-autofill,
+.input:-webkit-autofill:hover,
+.input:-webkit-autofill:focus,
+.input:-webkit-autofill:active {
+  box-shadow: 0 0 0 30px white inset;
+  color: #1D1D1D !important;
+  background-color: transparent !important;
+  background-image: none !important;
+}
+
+.disabled .input:-webkit-autofill {
+  box-shadow: 0 0 0 30px #F1F1F1 inset;
+  color: #CCCCCC !important;
+  background-color: transparent !important;
+  background-image: none !important;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.input::placeholder {
+  color: #E5E5E5;
+}
+
+.successWrapper,
+.successWrapper.inputWrapper:focus-within {
+  border: 1px solid #2080FB ;
+}
+
+.errorWrapper,
+.errorWrapper.inputWrapper:focus-within {
+  border: 1px solid #FC0D0D;
+}
+
+:global .DayPickerInput {
+  height: 48px;
+  border-radius: 5px;
+  border: 1px solid #E5E5E5;
+  background-color: white;
+  padding: 0 16px;
+  margin-top: 8px;
+  display: inline-block;
+  align-items: center;
+  min-width: 200px;
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+}
+
+.error {
+  color: #FC0D0D;
+  margin: 0;
+  padding-top: 4px;
+}
+
+.hidden {
+  display: none;
+}

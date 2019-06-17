@@ -1,0 +1,9 @@
+{
+  "plugins": ["@babel/plugin-syntax-dynamic-import", "@babel/plugin-proposal-class-properties", "@babel/plugin-proposal-object-rest-spread"],
+  "presets": ["@babel/react", "@babel/env", "@babel/typescript"],
+  "env": {
+    "test": {
+      "presets": ["@babel/react", "@babel/env", "@babel/typescript"]
+    }
+  }
+}

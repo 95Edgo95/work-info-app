@@ -1,0 +1,394 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Routes should render correctly 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <BrowserRouter>
+    <Router
+      history={
+        Object {
+          "action": "POP",
+          "block": [Function],
+          "createHref": [Function],
+          "go": [Function],
+          "goBack": [Function],
+          "goForward": [Function],
+          "length": 1,
+          "listen": [Function],
+          "location": Object {
+            "hash": "",
+            "pathname": "/",
+            "search": "",
+            "state": undefined,
+          },
+          "push": [Function],
+          "replace": [Function],
+        }
+      }
+    >
+      <Routes>
+        <Switch>
+          <Route
+            component={[Function]}
+            computedMatch={
+              Object {
+                "isExact": true,
+                "params": Object {},
+                "path": "/",
+                "url": "/",
+              }
+            }
+            exact={true}
+            location={
+              Object {
+                "hash": "",
+                "pathname": "/",
+                "search": "",
+                "state": undefined,
+              }
+            }
+            path="/"
+          >
+            <Component
+              history={
+                Object {
+                  "action": "POP",
+                  "block": [Function],
+                  "createHref": [Function],
+                  "go": [Function],
+                  "goBack": [Function],
+                  "goForward": [Function],
+                  "length": 1,
+                  "listen": [Function],
+                  "location": Object {
+                    "hash": "",
+                    "pathname": "/",
+                    "search": "",
+                    "state": undefined,
+                  },
+                  "push": [Function],
+                  "replace": [Function],
+                }
+              }
+              location={
+                Object {
+                  "hash": "",
+                  "pathname": "/",
+                  "search": "",
+                  "state": undefined,
+                }
+              }
+              match={
+                Object {
+                  "isExact": true,
+                  "params": Object {},
+                  "path": "/",
+                  "url": "/",
+                }
+              }
+            >
+              <Layout>
+                <div>
+                  <Connect(Header)>
+                    <Header
+                      attemptSignOut={[Function]}
+                    >
+                      <div>
+                        <Link
+                          replace={false}
+                          to="/"
+                        >
+                          <a
+                            href="/"
+                            onClick={[Function]}
+                          >
+                            Home
+                          </a>
+                        </Link>
+                        <Button
+                          onClick={[Function]}
+                          secondary={true}
+                        >
+                          <button
+                            className=""
+                            onClick={[Function]}
+                            type="button"
+                          >
+                            Exit
+                          </button>
+                        </Button>
+                      </div>
+                    </Header>
+                  </Connect(Header)>
+                  <Connect(Workbooks)
+                    history={
+                      Object {
+                        "action": "POP",
+                        "block": [Function],
+                        "createHref": [Function],
+                        "go": [Function],
+                        "goBack": [Function],
+                        "goForward": [Function],
+                        "length": 1,
+                        "listen": [Function],
+                        "location": Object {
+                          "hash": "",
+                          "pathname": "/",
+                          "search": "",
+                          "state": undefined,
+                        },
+                        "push": [Function],
+                        "replace": [Function],
+                      }
+                    }
+                    location={
+                      Object {
+                        "hash": "",
+                        "pathname": "/",
+                        "search": "",
+                        "state": undefined,
+                      }
+                    }
+                    match={
+                      Object {
+                        "isExact": true,
+                        "params": Object {},
+                        "path": "/",
+                        "url": "/",
+                      }
+                    }
+                  >
+                    <Workbooks
+                      attemptDeleteWorkbook={[Function]}
+                      attemptGetWorkbooks={[Function]}
+                      history={
+                        Object {
+                          "action": "POP",
+                          "block": [Function],
+                          "createHref": [Function],
+                          "go": [Function],
+                          "goBack": [Function],
+                          "goForward": [Function],
+                          "length": 1,
+                          "listen": [Function],
+                          "location": Object {
+                            "hash": "",
+                            "pathname": "/",
+                            "search": "",
+                            "state": undefined,
+                          },
+                          "push": [Function],
+                          "replace": [Function],
+                        }
+                      }
+                      location={
+                        Object {
+                          "hash": "",
+                          "pathname": "/",
+                          "search": "",
+                          "state": undefined,
+                        }
+                      }
+                      match={
+                        Object {
+                          "isExact": true,
+                          "params": Object {},
+                          "path": "/",
+                          "url": "/",
+                        }
+                      }
+                      pagination={
+                        Immutable.Map {
+                          "count": 0,
+                          "limit": 0,
+                          "offset": 0,
+                        }
+                      }
+                      resetWorkplaceData={[Function]}
+                      workbooks={Immutable.Map {}}
+                    >
+                      <Filter
+                        attemptGetEntities={[Function]}
+                        createLink="workbooks"
+                        inputs={
+                          Array [
+                            Object {
+                              "defaultValue": "",
+                              "name": "firstName",
+                              "placeholder": "First Name",
+                            },
+                            Object {
+                              "defaultValue": "",
+                              "name": "lastName",
+                              "placeholder": "Last Name",
+                            },
+                            Object {
+                              "defaultValue": "",
+                              "name": "passport",
+                              "placeholder": "Passport",
+                            },
+                            Object {
+                              "defaultValue": "",
+                              "name": "email",
+                              "placeholder": "Email",
+                            },
+                          ]
+                        }
+                      >
+                        <div>
+                          <Input
+                            key="firstName"
+                            name="firstName"
+                            onChange={[Function]}
+                            placeholder="First Name"
+                            value=""
+                          >
+                            <div>
+                              <div
+                                className=""
+                              >
+                                <input
+                                  name="firstName"
+                                  onChange={[Function]}
+                                  placeholder="First Name"
+                                  type="text"
+                                  value=""
+                                />
+                              </div>
+                            </div>
+                          </Input>
+                          <Input
+                            key="lastName"
+                            name="lastName"
+                            onChange={[Function]}
+                            placeholder="Last Name"
+                            value=""
+                          >
+                            <div>
+                              <div
+                                className=""
+                              >
+                                <input
+                                  name="lastName"
+                                  onChange={[Function]}
+                                  placeholder="Last Name"
+                                  type="text"
+                                  value=""
+                                />
+                              </div>
+                            </div>
+                          </Input>
+                          <Input
+                            key="passport"
+                            name="passport"
+                            onChange={[Function]}
+                            placeholder="Passport"
+                            value=""
+                          >
+                            <div>
+                              <div
+                                className=""
+                              >
+                                <input
+                                  name="passport"
+                                  onChange={[Function]}
+                                  placeholder="Passport"
+                                  type="text"
+                                  value=""
+                                />
+                              </div>
+                            </div>
+                          </Input>
+                          <Input
+                            key="email"
+                            name="email"
+                            onChange={[Function]}
+                            placeholder="Email"
+                            value=""
+                          >
+                            <div>
+                              <div
+                                className=""
+                              >
+                                <input
+                                  name="email"
+                                  onChange={[Function]}
+                                  placeholder="Email"
+                                  type="text"
+                                  value=""
+                                />
+                              </div>
+                            </div>
+                          </Input>
+                          <Button
+                            onClick={[Function]}
+                          >
+                            <button
+                              className=""
+                              onClick={[Function]}
+                              type="button"
+                            >
+                              Search
+                            </button>
+                          </Button>
+                          <Button
+                            secondary={true}
+                          >
+                            <button
+                              className=""
+                              type="button"
+                            >
+                              <Link
+                                replace={false}
+                                to="/workbooks/create"
+                              >
+                                <a
+                                  href="/workbooks/create"
+                                  onClick={[Function]}
+                                >
+                                  Add New
+                                </a>
+                              </Link>
+                            </button>
+                          </Button>
+                        </div>
+                      </Filter>
+                      <CardsWrapper
+                        attemptGetEntities={[Function]}
+                        entities={Immutable.Map {}}
+                        getDetails={[Function]}
+                        getLink={[Function]}
+                        getTitle={[Function]}
+                        pagination={
+                          Immutable.Map {
+                            "count": 0,
+                            "limit": 0,
+                            "offset": 0,
+                          }
+                        }
+                      >
+                        <div>
+                          <Component />
+                        </div>
+                      </CardsWrapper>
+                    </Workbooks>
+                  </Connect(Workbooks)>
+                </div>
+              </Layout>
+            </Component>
+          </Route>
+        </Switch>
+      </Routes>
+    </Router>
+  </BrowserRouter>
+</Provider>
+`;

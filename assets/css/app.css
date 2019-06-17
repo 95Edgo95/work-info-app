@@ -1,0 +1,9 @@
+:global body {
+  margin: 0;
+  background: #ededed;
+}
+
+:global a {
+  text-decoration: none;
+  color: inherit;
+}

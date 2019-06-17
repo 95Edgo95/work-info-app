@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SignIn should render correctly 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <BrowserRouter>
+    <Router
+      history={
+        Object {
+          "action": "POP",
+          "block": [Function],
+          "createHref": [Function],
+          "go": [Function],
+          "goBack": [Function],
+          "goForward": [Function],
+          "length": 1,
+          "listen": [Function],
+          "location": Object {
+            "hash": "",
+            "pathname": "/",
+            "search": "",
+            "state": undefined,
+          },
+          "push": [Function],
+          "replace": [Function],
+        }
+      }
+    >
+      <Connect(SignIn)>
+        <SignIn
+          attemptSignIn={[Function]}
+          errorFields={Immutable.List []}
+          isLoggedIn={false}
+        >
+          <div>
+            <form
+              onSubmit={[Function]}
+            >
+              <div>
+                <Input
+                  hasError={false}
+                  isValid={false}
+                  name="username"
+                  onChange={[Function]}
+                  placeholder="Username"
+                  type="text"
+                  value=""
+                >
+                  <div>
+                    <div
+                      className=""
+                    >
+                      <input
+                        name="username"
+                        onChange={[Function]}
+                        placeholder="Username"
+                        type="text"
+                        value=""
+                      />
+                    </div>
+                  </div>
+                </Input>
+              </div>
+              <div>
+                <Input
+                  hasError={false}
+                  isValid={false}
+                  name="password"
+                  onChange={[Function]}
+                  placeholder="Password"
+                  type="password"
+                  value=""
+                >
+                  <div>
+                    <div
+                      className=""
+                    >
+                      <input
+                        name="password"
+                        onChange={[Function]}
+                        placeholder="Password"
+                        type="password"
+                        value=""
+                      />
+                    </div>
+                  </div>
+                </Input>
+              </div>
+              <div>
+                <Button
+                  type="submit"
+                >
+                  <button
+                    className=""
+                    type="submit"
+                  >
+                    Sign In
+                  </button>
+                </Button>
+              </div>
+            </form>
+          </div>
+        </SignIn>
+      </Connect(SignIn)>
+    </Router>
+  </BrowserRouter>
+</Provider>
+`;

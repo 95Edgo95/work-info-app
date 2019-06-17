@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardsWrapper should render correctly 1`] = `
+<CardsWrapper
+  attemptGetEntities={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          undefined,
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  entities={Immutable.Map {}}
+  getDetails={[Function]}
+  pagination={
+    Immutable.Map {
+      "count": 2,
+    }
+  }
+>
+  <div>
+    <Component />
+  </div>
+</CardsWrapper>
+`;

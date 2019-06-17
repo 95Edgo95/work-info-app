@@ -1,0 +1,689 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card should render correctly 1`] = `
+<Card
+  details={
+    Array [
+      Object {
+        "icon": "email",
+        "value": "test@test.com",
+      },
+      Object {
+        "icon": "passport",
+        "value": "TE12345678",
+      },
+      Object {
+        "icon": "birthday",
+        "value": "14/11/1995",
+      },
+      Object {
+        "icon": "workplace",
+        "value": 5,
+      },
+    ]
+  }
+>
+  <div>
+    <div />
+    <CardRow
+      icon="email"
+      key="test@test.com"
+      value="test@test.com"
+    >
+      <div>
+        <Icon
+          name="email"
+        >
+          <span
+            className="undefined "
+            role="presentation"
+            style={
+              Object {
+                "color": "black",
+                "fontSize": "24px",
+              }
+            }
+          >
+            <svg>
+              <use
+                xlinkHref="#email"
+              />
+            </svg>
+          </span>
+        </Icon>
+        <span>
+          test@test.com
+        </span>
+      </div>
+    </CardRow>
+    <CardRow
+      icon="passport"
+      key="TE12345678"
+      value="TE12345678"
+    >
+      <div>
+        <Icon
+          name="passport"
+        >
+          <span
+            className="undefined "
+            role="presentation"
+            style={
+              Object {
+                "color": "black",
+                "fontSize": "24px",
+              }
+            }
+          >
+            <svg>
+              <use
+                xlinkHref="#passport"
+              />
+            </svg>
+          </span>
+        </Icon>
+        <span>
+          TE12345678
+        </span>
+      </div>
+    </CardRow>
+    <CardRow
+      icon="birthday"
+      key="14/11/1995"
+      value="14/11/1995"
+    >
+      <div>
+        <Icon
+          name="birthday"
+        >
+          <span
+            className="undefined "
+            role="presentation"
+            style={
+              Object {
+                "color": "black",
+                "fontSize": "24px",
+              }
+            }
+          >
+            <svg>
+              <use
+                xlinkHref="#birthday"
+              />
+            </svg>
+          </span>
+        </Icon>
+        <span>
+          14/11/1995
+        </span>
+      </div>
+    </CardRow>
+    <CardRow
+      icon="workplace"
+      key="5"
+      value={5}
+    >
+      <div>
+        <Icon
+          name="workplace"
+        >
+          <span
+            className="undefined "
+            role="presentation"
+            style={
+              Object {
+                "color": "black",
+                "fontSize": "24px",
+              }
+            }
+          >
+            <svg>
+              <use
+                xlinkHref="#workplace"
+              />
+            </svg>
+          </span>
+        </Icon>
+        <span>
+          5
+        </span>
+      </div>
+    </CardRow>
+  </div>
+</Card>
+`;
+
+exports[`Card should render correctly with link 1`] = `
+<BrowserRouter>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "createHref": [Function],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <Card
+      details={
+        Array [
+          Object {
+            "icon": "email",
+            "value": "test@test.com",
+          },
+          Object {
+            "icon": "passport",
+            "value": "TE12345678",
+          },
+          Object {
+            "icon": "birthday",
+            "value": "14/11/1995",
+          },
+          Object {
+            "icon": "workplace",
+            "value": 5,
+          },
+        ]
+      }
+      link="/test/id"
+    >
+      <Link
+        replace={false}
+        to="/test/id"
+      >
+        <a
+          href="/test/id"
+          onClick={[Function]}
+        >
+          <div />
+          <CardRow
+            icon="email"
+            key="test@test.com"
+            value="test@test.com"
+          >
+            <div>
+              <Icon
+                name="email"
+              >
+                <span
+                  className="undefined "
+                  role="presentation"
+                  style={
+                    Object {
+                      "color": "black",
+                      "fontSize": "24px",
+                    }
+                  }
+                >
+                  <svg>
+                    <use
+                      xlinkHref="#email"
+                    />
+                  </svg>
+                </span>
+              </Icon>
+              <span>
+                test@test.com
+              </span>
+            </div>
+          </CardRow>
+          <CardRow
+            icon="passport"
+            key="TE12345678"
+            value="TE12345678"
+          >
+            <div>
+              <Icon
+                name="passport"
+              >
+                <span
+                  className="undefined "
+                  role="presentation"
+                  style={
+                    Object {
+                      "color": "black",
+                      "fontSize": "24px",
+                    }
+                  }
+                >
+                  <svg>
+                    <use
+                      xlinkHref="#passport"
+                    />
+                  </svg>
+                </span>
+              </Icon>
+              <span>
+                TE12345678
+              </span>
+            </div>
+          </CardRow>
+          <CardRow
+            icon="birthday"
+            key="14/11/1995"
+            value="14/11/1995"
+          >
+            <div>
+              <Icon
+                name="birthday"
+              >
+                <span
+                  className="undefined "
+                  role="presentation"
+                  style={
+                    Object {
+                      "color": "black",
+                      "fontSize": "24px",
+                    }
+                  }
+                >
+                  <svg>
+                    <use
+                      xlinkHref="#birthday"
+                    />
+                  </svg>
+                </span>
+              </Icon>
+              <span>
+                14/11/1995
+              </span>
+            </div>
+          </CardRow>
+          <CardRow
+            icon="workplace"
+            key="5"
+            value={5}
+          >
+            <div>
+              <Icon
+                name="workplace"
+              >
+                <span
+                  className="undefined "
+                  role="presentation"
+                  style={
+                    Object {
+                      "color": "black",
+                      "fontSize": "24px",
+                    }
+                  }
+                >
+                  <svg>
+                    <use
+                      xlinkHref="#workplace"
+                    />
+                  </svg>
+                </span>
+              </Icon>
+              <span>
+                5
+              </span>
+            </div>
+          </CardRow>
+        </a>
+      </Link>
+    </Card>
+  </Router>
+</BrowserRouter>
+`;
+
+exports[`Card should render correctly with title 1`] = `
+<Card
+  details={
+    Array [
+      Object {
+        "icon": "email",
+        "value": "test@test.com",
+      },
+      Object {
+        "icon": "passport",
+        "value": "TE12345678",
+      },
+      Object {
+        "icon": "birthday",
+        "value": "14/11/1995",
+      },
+      Object {
+        "icon": "workplace",
+        "value": 5,
+      },
+    ]
+  }
+  title="Title"
+>
+  <div>
+    <div />
+    <div>
+      Title
+    </div>
+    <CardRow
+      icon="email"
+      key="test@test.com"
+      value="test@test.com"
+    >
+      <div>
+        <Icon
+          name="email"
+        >
+          <span
+            className="undefined "
+            role="presentation"
+            style={
+              Object {
+                "color": "black",
+                "fontSize": "24px",
+              }
+            }
+          >
+            <svg>
+              <use
+                xlinkHref="#email"
+              />
+            </svg>
+          </span>
+        </Icon>
+        <span>
+          test@test.com
+        </span>
+      </div>
+    </CardRow>
+    <CardRow
+      icon="passport"
+      key="TE12345678"
+      value="TE12345678"
+    >
+      <div>
+        <Icon
+          name="passport"
+        >
+          <span
+            className="undefined "
+            role="presentation"
+            style={
+              Object {
+                "color": "black",
+                "fontSize": "24px",
+              }
+            }
+          >
+            <svg>
+              <use
+                xlinkHref="#passport"
+              />
+            </svg>
+          </span>
+        </Icon>
+        <span>
+          TE12345678
+        </span>
+      </div>
+    </CardRow>
+    <CardRow
+      icon="birthday"
+      key="14/11/1995"
+      value="14/11/1995"
+    >
+      <div>
+        <Icon
+          name="birthday"
+        >
+          <span
+            className="undefined "
+            role="presentation"
+            style={
+              Object {
+                "color": "black",
+                "fontSize": "24px",
+              }
+            }
+          >
+            <svg>
+              <use
+                xlinkHref="#birthday"
+              />
+            </svg>
+          </span>
+        </Icon>
+        <span>
+          14/11/1995
+        </span>
+      </div>
+    </CardRow>
+    <CardRow
+      icon="workplace"
+      key="5"
+      value={5}
+    >
+      <div>
+        <Icon
+          name="workplace"
+        >
+          <span
+            className="undefined "
+            role="presentation"
+            style={
+              Object {
+                "color": "black",
+                "fontSize": "24px",
+              }
+            }
+          >
+            <svg>
+              <use
+                xlinkHref="#workplace"
+              />
+            </svg>
+          </span>
+        </Icon>
+        <span>
+          5
+        </span>
+      </div>
+    </CardRow>
+  </div>
+</Card>
+`;
+
+exports[`Card should render correctly with title and link 1`] = `
+<BrowserRouter>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "createHref": [Function],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <Card
+      details={
+        Array [
+          Object {
+            "icon": "email",
+            "value": "test@test.com",
+          },
+          Object {
+            "icon": "passport",
+            "value": "TE12345678",
+          },
+          Object {
+            "icon": "birthday",
+            "value": "14/11/1995",
+          },
+          Object {
+            "icon": "workplace",
+            "value": 5,
+          },
+        ]
+      }
+      link="/test/id"
+      title="Title"
+    >
+      <Link
+        replace={false}
+        to="/test/id"
+      >
+        <a
+          href="/test/id"
+          onClick={[Function]}
+        >
+          <div />
+          <div>
+            Title
+          </div>
+          <CardRow
+            icon="email"
+            key="test@test.com"
+            value="test@test.com"
+          >
+            <div>
+              <Icon
+                name="email"
+              >
+                <span
+                  className="undefined "
+                  role="presentation"
+                  style={
+                    Object {
+                      "color": "black",
+                      "fontSize": "24px",
+                    }
+                  }
+                >
+                  <svg>
+                    <use
+                      xlinkHref="#email"
+                    />
+                  </svg>
+                </span>
+              </Icon>
+              <span>
+                test@test.com
+              </span>
+            </div>
+          </CardRow>
+          <CardRow
+            icon="passport"
+            key="TE12345678"
+            value="TE12345678"
+          >
+            <div>
+              <Icon
+                name="passport"
+              >
+                <span
+                  className="undefined "
+                  role="presentation"
+                  style={
+                    Object {
+                      "color": "black",
+                      "fontSize": "24px",
+                    }
+                  }
+                >
+                  <svg>
+                    <use
+                      xlinkHref="#passport"
+                    />
+                  </svg>
+                </span>
+              </Icon>
+              <span>
+                TE12345678
+              </span>
+            </div>
+          </CardRow>
+          <CardRow
+            icon="birthday"
+            key="14/11/1995"
+            value="14/11/1995"
+          >
+            <div>
+              <Icon
+                name="birthday"
+              >
+                <span
+                  className="undefined "
+                  role="presentation"
+                  style={
+                    Object {
+                      "color": "black",
+                      "fontSize": "24px",
+                    }
+                  }
+                >
+                  <svg>
+                    <use
+                      xlinkHref="#birthday"
+                    />
+                  </svg>
+                </span>
+              </Icon>
+              <span>
+                14/11/1995
+              </span>
+            </div>
+          </CardRow>
+          <CardRow
+            icon="workplace"
+            key="5"
+            value={5}
+          >
+            <div>
+              <Icon
+                name="workplace"
+              >
+                <span
+                  className="undefined "
+                  role="presentation"
+                  style={
+                    Object {
+                      "color": "black",
+                      "fontSize": "24px",
+                    }
+                  }
+                >
+                  <svg>
+                    <use
+                      xlinkHref="#workplace"
+                    />
+                  </svg>
+                </span>
+              </Icon>
+              <span>
+                5
+              </span>
+            </div>
+          </CardRow>
+        </a>
+      </Link>
+    </Card>
+  </Router>
+</BrowserRouter>
+`;

@@ -1,0 +1,55 @@
+{
+  "compilerOptions": {
+    "alwaysStrict": true,
+    "allowSyntheticDefaultImports": true,
+    "module": "esnext",
+    "target": "es2018",
+    "sourceMap": false,
+    "jsx": "react",
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "allowJs": true,
+    "outDir": "dist",
+    "moduleResolution": "node",
+    "lib": [
+      "dom",
+      "es2015",
+      "es2016",
+      "es2017"
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "helpers/*": [
+        "src/helpers/*"
+      ],
+      "components/*": [
+        "src/components/*"
+      ],
+      "store/*": [
+        "src/store/*"
+      ],
+      "containers/*": [
+        "src/containers/*"
+      ],
+      "configs/*": [
+        "src/configs/*"
+      ],
+      "services/*": [
+        "src/services/*"
+      ],
+      "assets/*": [
+        "assets/*"
+      ]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "Content",
+    "assets",
+    "server",
+    "dist"
+  ],
+  "include": [
+    "src/**/*"
+  ]
+}

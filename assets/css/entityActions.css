@@ -1,0 +1,23 @@
+.actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.delete {
+  cursor: pointer;
+  padding: 0 8px;
+  color: #FC0D0D;
+}
+
+.delete:hover {
+  color: #ca0d0d;
+}
+
+.edit {
+  cursor: pointer;
+  color: #2080FB;
+}
+
+.edit:hover {
+  color: #0069d9;
+}

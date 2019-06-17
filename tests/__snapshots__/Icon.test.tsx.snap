@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Icon should render correctly 1`] = `
+<Icon
+  name="pencil"
+>
+  <span
+    className="undefined "
+    role="presentation"
+    style={
+      Object {
+        "color": "black",
+        "fontSize": "24px",
+      }
+    }
+  >
+    <svg>
+      <use
+        xlinkHref="#pencil"
+      />
+    </svg>
+  </span>
+</Icon>
+`;
+
+exports[`Icon should render correctly with color 1`] = `
+<Icon
+  color="red"
+  name="pencil"
+  size={32}
+>
+  <span
+    className="undefined "
+    role="presentation"
+    style={
+      Object {
+        "color": "red",
+        "fontSize": "32px",
+      }
+    }
+  >
+    <svg>
+      <use
+        xlinkHref="#pencil"
+      />
+    </svg>
+  </span>
+</Icon>
+`;
+
+exports[`Icon should render correctly with size 1`] = `
+<Icon
+  name="pencil"
+  size={32}
+>
+  <span
+    className="undefined "
+    role="presentation"
+    style={
+      Object {
+        "color": "black",
+        "fontSize": "32px",
+      }
+    }
+  >
+    <svg>
+      <use
+        xlinkHref="#pencil"
+      />
+    </svg>
+  </span>
+</Icon>
+`;
+
+exports[`Icon should render correctly with style 1`] = `
+<Icon
+  color="red"
+  name="pencil"
+  size={32}
+  style={
+    Object {
+      "margin": "0 auto",
+    }
+  }
+>
+  <span
+    className="undefined "
+    role="presentation"
+    style={
+      Object {
+        "color": "red",
+        "fontSize": "32px",
+        "margin": "0 auto",
+      }
+    }
+  >
+    <svg>
+      <use
+        xlinkHref="#pencil"
+      />
+    </svg>
+  </span>
+</Icon>
+`;

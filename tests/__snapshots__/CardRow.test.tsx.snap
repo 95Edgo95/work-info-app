@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardRow should render correctly 1`] = `
+<CardRow
+  icon="trash"
+  value="test"
+>
+  <div>
+    <Icon
+      name="trash"
+    >
+      <span
+        className="undefined "
+        role="presentation"
+        style={
+          Object {
+            "color": "black",
+            "fontSize": "24px",
+          }
+        }
+      >
+        <svg>
+          <use
+            xlinkHref="#trash"
+          />
+        </svg>
+      </span>
+    </Icon>
+    <span>
+      test
+    </span>
+  </div>
+</CardRow>
+`;
+
+exports[`CardRow should render correctly with number 1`] = `
+<CardRow
+  icon="trash"
+  value={2}
+>
+  <div>
+    <Icon
+      name="trash"
+    >
+      <span
+        className="undefined "
+        role="presentation"
+        style={
+          Object {
+            "color": "black",
+            "fontSize": "24px",
+          }
+        }
+      >
+        <svg>
+          <use
+            xlinkHref="#trash"
+          />
+        </svg>
+      </span>
+    </Icon>
+    <span>
+      2
+    </span>
+  </div>
+</CardRow>
+`;
